@@ -99,9 +99,12 @@ functions = [
 ]
 
             
-TOKEN = input("   Token bot: ").strip()
-ADMIN_IDS = input("   ID Admin: ").split(",")
-ADMIN_IDS = [aid.strip() for aid in ADMIN_IDS]
+# ========================================================
+# 🔥 ĐÃ DÁN TRỰC TIẾP TOKEN VÀ ADMIN ID - KHÔNG NHẬP THỦ CÔNG
+# ========================================================
+TOKEN = "MTQ5NjE0MzU0MDAwMTA1MDczNA.GvHZv9.ke3XOfNAnjsvM8GVx0PEPGLwMrVuOymYbvdhwo"
+ADMIN_IDS = ["1484506341404835912"]
+# ========================================================
 
 INTENTS = discord.Intents.default()
 INTENTS.members = True
